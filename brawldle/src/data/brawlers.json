@@ -7,6 +7,17 @@
     "path": "Larry-&-Lawrie",
     "fankit": "larry&lawrie",
     "released": true,
+    "releaseYear" : 2024,
+    "attackType" : "range",
+    "gender" : "Male",
+    "color": [
+        {
+            "value" : "Orange"
+        },
+        {
+            "value" : "Yellow"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Larry-&-Lawrie",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Larry-&-Lawrie.png",

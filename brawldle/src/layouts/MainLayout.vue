@@ -30,6 +30,10 @@ const router = useRouter()
 
 function backHome() {
   store.brawlerToGuess = {}
+  store.listBrawlerAttempt = []
+  store.originalList = []
+  store.attemptCount = 0;
+  store.filteredList = []
   router.push("/")
 }
 </script>

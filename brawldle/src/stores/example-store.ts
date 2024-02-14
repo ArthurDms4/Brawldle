@@ -6,7 +6,8 @@ export const BrawlStore = defineStore('BrawlStore', {
     attemptCount: 0,
     listBrawlerAttempt: [] as any[],
     originalList: [] as any[],
-    filteredList: [] as any[]
+    filteredList: [] as any[],
+    hintSelected: ''
   }),
   getters: {
     

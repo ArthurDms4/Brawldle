@@ -3,6 +3,7 @@
 
     <q-header elevated class="bg-primary text-white">
       <q-toolbar>
+        <div>Powered by <a target="_blank" href="https://brawlapi.com/">BrawlAPI</a></div>
         <q-toolbar-title class="text-center">
           Brawldle
         </q-toolbar-title>

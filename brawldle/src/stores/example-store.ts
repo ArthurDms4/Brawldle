@@ -15,6 +15,13 @@ export const BrawlStore = defineStore('BrawlStore', {
   actions: {
     addAttempt() {
       this.attemptCount++
+    },
+    backHome() {
+      this.brawlerToGuess = {}
+      this.listBrawlerAttempt = []
+      this.originalList = []
+      this.attemptCount = 0;
+      this.filteredList = []
     }
   },
 });

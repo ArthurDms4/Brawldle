@@ -1,6 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <q-btn label="Start a new quiz" @click="startQuiz">
+    <q-btn size="40px" label="Start a new quiz" color="red" @click="startQuiz">
 
     </q-btn>
   </q-page>

@@ -6,7 +6,7 @@
         <q-toolbar-title class="text-center">
           Brawldle
         </q-toolbar-title>
-        <q-btn v-if="store.brawlerToGuess" icon="home" color="red" @click="backHome()">
+        <q-btn v-if="store.brawlerToGuess" icon="home" color="red" @click="backHome">
           
         </q-btn>
 
@@ -29,11 +29,8 @@ const store = BrawlStore()
 const router = useRouter()
 
 function backHome() {
-  store.brawlerToGuess = {}
-  store.listBrawlerAttempt = []
-  store.originalList = []
-  store.attemptCount = 0;
-  store.filteredList = []
+  store.backHome()
   router.push("/")
 }
+
 </script>

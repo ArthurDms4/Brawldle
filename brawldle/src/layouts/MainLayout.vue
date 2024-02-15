@@ -22,7 +22,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
 import { BrawlStore } from 'src/stores/example-store';
 import { useRouter } from 'vue-router';
 

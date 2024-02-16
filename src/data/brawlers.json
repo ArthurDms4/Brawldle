@@ -8,7 +8,7 @@
     "fankit": "larry&lawrie",
     "released": true,
     "releaseYear" : 2024,
-    "attackType" : "range",
+    "attackType" : "Range",
     "gender" : "Male",
     "color": [
         {
@@ -41,8 +41,8 @@
     "name": "Protocol Protect",
     "path": "Protocol-Protect",
     "version": 1,
-    "description": "While Lawrie is in range, transfer all incoming damage to him instead.",
-    "descriptionHtml": "While Lawrie is in range, transfer all incoming damage to him instead.",
+    "description": "While Lawrie is in Range, transfer all incoming damage to him instead.",
+    "descriptionHtml": "While Lawrie is in Range, transfer all incoming damage to him instead.",
     "imageUrl": "https://cdn-fankit.brawlify.com/larrie&lawrie_starpower_01.png",
     "released": true
     },
@@ -51,8 +51,8 @@
     "name": "Protocol Assist",
     "path": "Protocol-Assist",
     "version": 1,
-    "description": "While Lawrie is in range, reload x% your ammo whenever he damages an enemy.",
-    "descriptionHtml": "While Lawrie is in range, reload <span style=\"color:#00cc00;\">x%</span> your ammo whenever he damages an enemy.",
+    "description": "While Lawrie is in Range, reload x% your ammo whenever he damages an enemy.",
+    "descriptionHtml": "While Lawrie is in Range, reload <span style=\"color:#00cc00;\">x%</span> your ammo whenever he damages an enemy.",
     "imageUrl": "https://cdn-fankit.brawlify.com/larrie&lawrie_starpower_02.png",
     "released": true
     }
@@ -89,6 +89,17 @@
     "path": "Kit",
     "fankit": "kit",
     "released": true,
+    "releaseYear": 2024,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Black"
+        },
+        {
+            "value" : "White"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Kit",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Kit.png",
@@ -160,6 +171,14 @@
     "path": "Mico",
     "fankit": "mico",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Mico",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Mico.png",
@@ -215,8 +234,8 @@
     "name": "Presto",
     "path": "Presto",
     "version": 1,
-    "description": "Mico's next jump has x% longer range.",
-    "descriptionHtml": "Mico's next jump has <span style=\"color:#00cc00;\">x%</span> longer range.",
+    "description": "Mico's next jump has x% longer Range.",
+    "descriptionHtml": "Mico's next jump has <span style=\"color:#00cc00;\">x%</span> longer Range.",
     "imageUrl": "https://cdn-fankit.brawlify.com/mico_gadget_02.png",
     "released": true
     }
@@ -231,6 +250,17 @@
     "path": "Charlie",
     "fankit": "charlie",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Yellow"
+        },
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Charlie",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Charlie.png",
@@ -302,6 +332,14 @@
     "path": "Chuck",
     "fankit": "chuck",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Chuck",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Chuck.png",
@@ -373,6 +411,14 @@
     "path": "Pearl",
     "fankit": "pearl",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Pearl",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Pearl.png",
@@ -444,6 +490,14 @@
     "path": "Doug",
     "fankit": "doug",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Pink"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Doug",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Doug.png",
@@ -515,6 +569,14 @@
     "path": "Cordelius",
     "fankit": "cordelius",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Purple"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Cordelius",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Cordelius.png",
@@ -586,6 +648,17 @@
     "path": "Hank",
     "fankit": "hank",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Melee",
+    "gender":"Male",
+    "color": [
+        {
+            "value" : "Orange"
+        },
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Hank",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Hank.png",
@@ -657,6 +730,14 @@
     "path": "Maisie",
     "fankit": "maisie",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Maisie",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Maisie.png",
@@ -728,6 +809,17 @@
     "path": "Willow",
     "fankit": "willow",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Green"
+        },
+        {
+            "value" : "Black"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Willow",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Willow.png",
@@ -794,15 +886,23 @@
     {
     "id": 16000066,
     "avatarId": 28000245,
-    "name": "R-T",
-    "hash": "R-T",
-    "path": "R-T",
+    "name": "Range-T",
+    "hash": "Range-T",
+    "path": "Range-T",
     "fankit": "rt",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Orange"
+        }
+    ],
     "version": 1,
-    "link": "https://brawlify.com/brawlers/detail/R-T",
-    "imageUrl": "https://cdn-old.brawlify.com/brawler/R-T.png",
-    "imageUrl2": "https://cdn-old.brawlify.com/brawler-bs/R-T.png",
+    "link": "https://brawlify.com/brawlers/detail/Range-T",
+    "imageUrl": "https://cdn-old.brawlify.com/brawler/Range-T.png",
+    "imageUrl2": "https://cdn-old.brawlify.com/brawler-bs/Range-T.png",
     "imageUrl3": "https://cdn-fankit.brawlify.com/rt_pin.png",
     "class": {
     "id": 1,
@@ -814,8 +914,8 @@
     "color": "#fe5e72"
     },
     "unlock": null,
-    "description": "R-T is designed to be a helpful information kiosk, but he's also been given the task of monitoring all activity within Starr Park. For safety reasons, of course.",
-    "descriptionHtml": "R-T is designed to be a helpful information kiosk, but he's also been given the task of monitoring all activity within Starr Park. For safety reasons, of course.",
+    "description": "Range-T is designed to be a helpful information kiosk, but he's also been given the task of monitoring all activity within Starr Park. For safety reasons, of course.",
+    "descriptionHtml": "Range-T is designed to be a helpful information kiosk, but he's also been given the task of monitoring all activity within Starr Park. For safety reasons, of course.",
     "starPowers": [
     {
     "id": 23000553,
@@ -832,8 +932,8 @@
     "name": "Recording",
     "path": "Recording",
     "version": 1,
-    "description": "R-T and his legs take x% less damage when split.",
-    "descriptionHtml": "R-T and his legs take <span style=\"color:#00cc00;\">x%</span> less damage when split.",
+    "description": "Range-T and his legs take x% less damage when split.",
+    "descriptionHtml": "Range-T and his legs take <span style=\"color:#00cc00;\">x%</span> less damage when split.",
     "imageUrl": "https://cdn-fankit.brawlify.com/rt_starpower_02.png",
     "released": true
     }
@@ -844,8 +944,8 @@
     "name": "In Line",
     "path": "In-Line",
     "version": 1,
-    "description": "R-T signals his legs while split, damaging enemy brawlers in between for x and slowing them.",
-    "descriptionHtml": "R-T signals his legs while split, damaging enemy brawlers in between for <span style=\"color:#00cc00;\">x</span> and slowing them.",
+    "description": "Range-T signals his legs while split, damaging enemy brawlers in between for x and slowing them.",
+    "descriptionHtml": "Range-T signals his legs while split, damaging enemy brawlers in between for <span style=\"color:#00cc00;\">x</span> and slowing them.",
     "imageUrl": "https://cdn-fankit.brawlify.com/rt_gadget_01.png",
     "released": true
     },
@@ -870,6 +970,17 @@
     "path": "Mandy",
     "fankit": "mandy",
     "released": true,
+    "releaseYear": 2023,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Green"
+        },
+        {
+            "value" : "Pink"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Mandy",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Mandy.png",
@@ -941,6 +1052,14 @@
     "path": "Gray",
     "fankit": "gray",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Gray"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Gray",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Gray.png",
@@ -1012,6 +1131,14 @@
     "path": "Chester",
     "fankit": "chester",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Chester",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Chester.png",
@@ -1083,6 +1210,14 @@
     "path": "Buster",
     "fankit": "buster",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Orange"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Buster",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Buster.png",
@@ -1154,6 +1289,14 @@
     "path": "Gus",
     "fankit": "gus",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Gus",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Gus.png",
@@ -1225,6 +1368,17 @@
     "path": "Sam",
     "fankit": "sam",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        },
+        {
+            "value" : "Orange"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Sam",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Sam.png",
@@ -1296,6 +1450,17 @@
     "path": "Otis",
     "fankit": "otis",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Yellow"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Otis",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Otis.png",
@@ -1367,6 +1532,17 @@
     "path": "Bonnie",
     "fankit": "bonnie",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "White"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Bonnie",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Bonnie.png",
@@ -1390,8 +1566,8 @@
     "name": "Black Powder",
     "path": "Black-Powder",
     "version": 1,
-    "description": "The range of Bonnie's Star Launcher is increased by x%.",
-    "descriptionHtml": "The range of Bonnie's Star Launcher is increased by <span style=\"color:#00cc00;\">x%</span>.",
+    "description": "The Range of Bonnie's Star Launcher is increased by x%.",
+    "descriptionHtml": "The Range of Bonnie's Star Launcher is increased by <span style=\"color:#00cc00;\">x%</span>.",
     "imageUrl": "https://cdn-fankit.brawlify.com/bonnie_starpower_01.png",
     "released": true
     },
@@ -1438,6 +1614,17 @@
     "path": "Janet",
     "fankit": "janet",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Blue"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Janet",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Janet.png",
@@ -1509,6 +1696,17 @@
     "path": "Eve",
     "fankit": "eve",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Purple"
+        },
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Eve",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Eve.png",
@@ -1580,6 +1778,17 @@
     "path": "Fang",
     "fankit": "fang",
     "released": true,
+    "releaseYear": 2022,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Fang",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Fang.png",
@@ -1651,6 +1860,17 @@
     "path": "Lola",
     "fankit": "lola",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Green"
+        },
+        {
+            "value" : "Pink"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Lola",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Lola.png",
@@ -1722,6 +1942,17 @@
     "path": "Meg",
     "fankit": "meg",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Red"
+        },
+        {
+            "value" : "Yellow"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Meg",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Meg.png",
@@ -1793,6 +2024,14 @@
     "path": "Ash",
     "fankit": "ash",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Ash",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Ash.png",
@@ -1864,6 +2103,17 @@
     "path": "Griff",
     "fankit": "griff",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Yellow"
+        },
+        {
+            "value" : "Purple"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Griff",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Griff.png",
@@ -1909,8 +2159,8 @@
     "name": "Piggy Bank",
     "path": "Piggy-Bank",
     "version": 1,
-    "description": "Griff drops a firecracker-filled piggy bank that explodes after a short delay, destroying obstacles and dealing x damage to opponents within range.",
-    "descriptionHtml": "Griff drops a firecracker-filled piggy bank that explodes after a short delay, destroying obstacles and dealing <span style=\"color:#00cc00;\">x</span> damage to opponents within range.",
+    "description": "Griff drops a firecracker-filled piggy bank that explodes after a short delay, destroying obstacles and dealing x damage to opponents within Range.",
+    "descriptionHtml": "Griff drops a firecracker-filled piggy bank that explodes after a short delay, destroying obstacles and dealing <span style=\"color:#00cc00;\">x</span> damage to opponents within Range.",
     "imageUrl": "https://cdn-fankit.brawlify.com/griff_gadget_01.png",
     "released": true
     },
@@ -1935,6 +2185,14 @@
     "path": "Buzz",
     "fankit": "buzz",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Buzz",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Buzz.png",
@@ -2006,6 +2264,17 @@
     "path": "Grom",
     "fankit": "grom",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Red"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Grom",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Grom.png",
@@ -2077,6 +2346,14 @@
     "path": "Squeak",
     "fankit": "squeak",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Squeak",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Squeak.png",
@@ -2122,8 +2399,8 @@
     "name": "Windup",
     "path": "Windup",
     "version": 1,
-    "description": "Squeak's next Sticky Blomb deals x% more damage and has x% longer range.",
-    "descriptionHtml": "Squeak's next Sticky Blomb deals <span style=\"color:#00cc00;\">x%</span> more damage and has <span style=\"color:#00cc00;\">x%</span> longer range.",
+    "description": "Squeak's next Sticky Blomb deals x% more damage and has x% longer Range.",
+    "descriptionHtml": "Squeak's next Sticky Blomb deals <span style=\"color:#00cc00;\">x%</span> more damage and has <span style=\"color:#00cc00;\">x%</span> longer Range.",
     "imageUrl": "https://cdn-fankit.brawlify.com/squeak_gadget_01.png",
     "released": true
     },
@@ -2148,6 +2425,17 @@
     "path": "Belle",
     "fankit": "belle",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "White"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Belle",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Belle.png",
@@ -2219,6 +2507,17 @@
     "path": "Stu",
     "fankit": "stu",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Stu",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Stu.png",
@@ -2290,6 +2589,17 @@
     "path": "Ruffs",
     "fankit": "ruffs",
     "released": true,
+    "releaseYear": 2021,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Purple"
+        },
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Ruffs",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Ruffs.png",
@@ -2323,8 +2633,8 @@
     "name": "Field Promotion",
     "path": "Field-Promotion",
     "version": 1,
-    "description": "Friendly Brawlers have their maximum health increased by x every second that they are in range of this ability while it's active.",
-    "descriptionHtml": "Friendly Brawlers have their maximum health increased by <span style=\"color:#00cc00;\">x</span> every second that they are in range of this ability while it's active.",
+    "description": "Friendly Brawlers have their maximum health increased by x every second that they are in Range of this ability while it's active.",
+    "descriptionHtml": "Friendly Brawlers have their maximum health increased by <span style=\"color:#00cc00;\">x</span> every second that they are in Range of this ability while it's active.",
     "imageUrl": "https://cdn-fankit.brawlify.com/ruffs_starpower_02.png",
     "released": true
     }
@@ -2361,6 +2671,17 @@
     "path": "Edgar",
     "fankit": "edgar",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Black"
+        },
+        {
+            "value" : "White"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Edgar",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Edgar.png",
@@ -2432,6 +2753,17 @@
     "path": "Byron",
     "fankit": "byron",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "White"
+        },
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Byron",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Byron.png",
@@ -2503,6 +2835,14 @@
     "path": "Lou",
     "fankit": "lou",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Lou",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Lou.png",
@@ -2574,6 +2914,14 @@
     "path": "Amber",
     "fankit": "amber",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Orange"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Amber",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Amber.png",
@@ -2645,6 +2993,17 @@
     "path": "Colette",
     "fankit": "colette",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "White"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Colette",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Colette.png",
@@ -2716,6 +3075,17 @@
     "path": "Surge",
     "fankit": "surge",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Red"
+        },
+        {
+            "value" : "Yellow"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Surge",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Surge.png",
@@ -2787,6 +3157,14 @@
     "path": "Sprout",
     "fankit": "sprout",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "White"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Sprout",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Sprout.png",
@@ -2858,6 +3236,17 @@
     "path": "Nani",
     "fankit": "nani",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Blue"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Nani",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Nani.png",
@@ -2929,6 +3318,14 @@
     "path": "Gale",
     "fankit": "gale",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Gale",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Gale.png",
@@ -3000,6 +3397,17 @@
     "path": "Jacky",
     "fankit": "jacky",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Melee",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Yellow"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Jacky",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Jacky.png",
@@ -3071,6 +3479,17 @@
     "path": "Max",
     "fankit": "max",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Yellow"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Max",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Max.png",
@@ -3142,6 +3561,14 @@
     "path": "Mr-P",
     "fankit": "mr.p",
     "released": true,
+    "releaseYear": 2020,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Mr-P",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Mr-P.png",
@@ -3213,6 +3640,14 @@
     "path": "Emz",
     "fankit": "emz",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Purple"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Emz",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Emz.png",
@@ -3284,6 +3719,17 @@
     "path": "Bea",
     "fankit": "bea",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Yellow"
+        },
+        {
+            "value" : "Purple"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Bea",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Bea.png",
@@ -3355,6 +3801,17 @@
     "path": "Sandy",
     "fankit": "sandy",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Purple"
+        },
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Sandy",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Sandy.png",
@@ -3426,6 +3883,14 @@
     "path": "8-Bit",
     "fankit": "8bit",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/8-Bit",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/8-Bit.png",
@@ -3449,8 +3914,8 @@
     "name": "Boosted Booster",
     "path": "Boosted-Booster",
     "version": 1,
-    "description": "Increases the Damage Booster's range by x% and boosts damage by an additional x%.",
-    "descriptionHtml": "Increases the Damage Booster's range by <span style=\"color:#00cc00;\">x%</span> and boosts damage by an additional <span style=\"color:#00cc00;\">x%</span>.",
+    "description": "Increases the Damage Booster's Range by x% and boosts damage by an additional x%.",
+    "descriptionHtml": "Increases the Damage Booster's Range by <span style=\"color:#00cc00;\">x%</span> and boosts damage by an additional <span style=\"color:#00cc00;\">x%</span>.",
     "imageUrl": "https://cdn-fankit.brawlify.com/8bit_starpower_01.png",
     "released": true
     },
@@ -3497,6 +3962,17 @@
     "path": "Bibi",
     "fankit": "bibi",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Melee",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Black"
+        },
+        {
+            "value" : "Purple"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Bibi",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Bibi.png",
@@ -3568,6 +4044,17 @@
     "path": "Carl",
     "fankit": "carl",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Yellow"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Carl",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Carl.png",
@@ -3639,6 +4126,17 @@
     "path": "Rosa",
     "fankit": "rosa",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Melee",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Purple"
+        },
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Rosa",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Rosa.png",
@@ -3710,6 +4208,14 @@
     "path": "Leon",
     "fankit": "leon",
     "released": true,
+    "releaseYear": 2018,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Leon",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Leon.png",
@@ -3781,6 +4287,14 @@
     "path": "Tick",
     "fankit": "tick",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Gray "
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Tick",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Tick.png",
@@ -3852,6 +4366,17 @@
     "path": "Gene",
     "fankit": "gene",
     "released": true,
+    "releaseYear": 2019,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Purple"
+        },
+        {
+            "value" : "Pink"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Gene",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Gene.png",
@@ -3897,8 +4422,8 @@
     "name": "Lamp Blowout",
     "path": "Lamp-Blowout",
     "version": 1,
-    "description": "All enemies close to Gene are instantly pushed back. If at least one enemy Brawler is within range, Gene will also restore x% of his max health.",
-    "descriptionHtml": "All enemies close to Gene are instantly pushed back. If at least one enemy Brawler is within range, Gene will also restore <span style=\"color:#00cc00;\">x%</span> of his max health.",
+    "description": "All enemies close to Gene are instantly pushed back. If at least one enemy Brawler is within Range, Gene will also restore x% of his max health.",
+    "descriptionHtml": "All enemies close to Gene are instantly pushed back. If at least one enemy Brawler is within Range, Gene will also restore <span style=\"color:#00cc00;\">x%</span> of his max health.",
     "imageUrl": "https://cdn-fankit.brawlify.com/gene_gadget_01.png",
     "released": true
     },
@@ -3923,6 +4448,17 @@
     "path": "Frank",
     "fankit": "frank",
     "released": true,
+    "releaseYear": 2018,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Purple"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Frank",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Frank.png",
@@ -3994,6 +4530,14 @@
     "path": "Penny",
     "fankit": "penny",
     "released": true,
+    "releaseYear": 2018,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Pink"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Penny",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Penny.png",
@@ -4049,8 +4593,8 @@
     "name": "Trusty Spyglass",
     "path": "Trusty-Spyglass",
     "version": 1,
-    "description": "Penny's cannon blasts at every visible enemy position within range.",
-    "descriptionHtml": "Penny's cannon blasts at every visible enemy position within range.",
+    "description": "Penny's cannon blasts at every visible enemy position within Range.",
+    "descriptionHtml": "Penny's cannon blasts at every visible enemy position within Range.",
     "imageUrl": "https://cdn-fankit.brawlify.com/penny_gadget_02.png",
     "released": true
     }
@@ -4065,6 +4609,17 @@
     "path": "Darryl",
     "fankit": "darryl",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Gray"
+        },
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Darryl",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Darryl.png",
@@ -4136,6 +4691,17 @@
     "path": "Tara",
     "fankit": "tara",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Pink"
+        },
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Tara",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Tara.png",
@@ -4207,6 +4773,17 @@
     "path": "Pam",
     "fankit": "pam",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Red"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Pam",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Pam.png",
@@ -4252,8 +4829,8 @@
     "name": "Pulse Modulator",
     "path": "Pulse-Modulator",
     "version": 1,
-    "description": "Pam triggers her turret to emit a pulse that heals allies inside the turret's range, including herself, for x health.",
-    "descriptionHtml": "Pam triggers her turret to emit a pulse that heals allies inside the turret's range, including herself, for <span style=\"color:#00cc00;\">x</span> health.",
+    "description": "Pam triggers her turret to emit a pulse that heals allies inside the turret's Range, including herself, for x health.",
+    "descriptionHtml": "Pam triggers her turret to emit a pulse that heals allies inside the turret's Range, including herself, for <span style=\"color:#00cc00;\">x</span> health.",
     "imageUrl": "https://cdn-fankit.brawlify.com/pam_gadget_01.png",
     "released": true
     },
@@ -4278,6 +4855,17 @@
     "path": "Piper",
     "fankit": "piper",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Blue"
+        },
+        {
+            "value" : "Yellow"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Piper",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Piper.png",
@@ -4301,8 +4889,8 @@
     "name": "Ambush",
     "path": "Ambush",
     "version": 1,
-    "description": "Piper's attack deals +x extra damage (at max range) when she's hidden in a bush.",
-    "descriptionHtml": "Piper's attack deals <span style=\"color:#00cc00;\">+x</span> extra damage (at max range) when she's hidden in a bush.",
+    "description": "Piper's attack deals +x extra damage (at max Range) when she's hidden in a bush.",
+    "descriptionHtml": "Piper's attack deals <span style=\"color:#00cc00;\">+x</span> extra damage (at max Range) when she's hidden in a bush.",
     "imageUrl": "https://cdn-fankit.brawlify.com/piper_starpower_01.png",
     "released": true
     },
@@ -4349,6 +4937,14 @@
     "path": "Bo",
     "fankit": "bo",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Bo",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Bo.png",
@@ -4420,6 +5016,17 @@
     "path": "Poco",
     "fankit": "poco",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Yellow"
+        },
+        {
+            "value" : "Black"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Poco",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Poco.png",
@@ -4491,6 +5098,14 @@
     "path": "Crow",
     "fankit": "crow",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Black"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Crow",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Crow.png",
@@ -4562,6 +5177,17 @@
     "path": "Mortis",
     "fankit": "mortis",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Black"
+        },
+        {
+            "value" : "Pink"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Mortis",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Mortis.png",
@@ -4633,6 +5259,17 @@
     "path": "El-Primo",
     "fankit": "elprimo",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Melee",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Blue"
+        },
+        {
+            "value" : "Brown"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/El-Primo",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/El-Primo.png",
@@ -4704,6 +5341,17 @@
     "path": "Dynamike",
     "fankit": "dynamike",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Red"
+        },
+        {
+            "value" : "White"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Dynamike",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Dynamike.png",
@@ -4775,6 +5423,14 @@
     "path": "Nita",
     "fankit": "nita",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Nita",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Nita.png",
@@ -4846,6 +5502,17 @@
     "path": "Jessie",
     "fankit": "jessie",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Red"
+        },
+        {
+            "value" : "Yellow"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Jessie",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Jessie.png",
@@ -4879,8 +5546,8 @@
     "name": "Shocky",
     "path": "Shocky",
     "version": 1,
-    "description": "Scrappy the Turret now shoots energy orbs that bounce between enemies. The orbs' range after a bounce is x% of normal range.",
-    "descriptionHtml": "Scrappy the Turret now shoots energy orbs that bounce between enemies. The orbs' range after a bounce is <span style=\"color:#00cc00;\">x%</span> of normal range.",
+    "description": "Scrappy the Turret now shoots energy orbs that bounce between enemies. The orbs' Range after a bounce is x% of normal Range.",
+    "descriptionHtml": "Scrappy the Turret now shoots energy orbs that bounce between enemies. The orbs' Range after a bounce is <span style=\"color:#00cc00;\">x%</span> of normal Range.",
     "imageUrl": "https://cdn-fankit.brawlify.com/jessie_starpower_02.png",
     "released": true
     }
@@ -4917,6 +5584,17 @@
     "path": "Barley",
     "fankit": "barley",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Gray"
+        },
+        {
+            "value" : "Red"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Barley",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Barley.png",
@@ -4988,6 +5666,14 @@
     "path": "Spike",
     "fankit": "spike",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Green"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Spike",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Spike.png",
@@ -5059,6 +5745,17 @@
     "path": "Rico",
     "fankit": "ricochet",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Gray"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Rico",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Rico.png",
@@ -5130,6 +5827,17 @@
     "path": "Brock",
     "fankit": "brock",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Brown"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Brock",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Brock.png",
@@ -5201,6 +5909,14 @@
     "path": "Bull",
     "fankit": "bull",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Black"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Bull",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Bull.png",
@@ -5272,6 +5988,17 @@
     "path": "Colt",
     "fankit": "colt",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Male",
+    "color": [
+        {
+            "value" : "Red"
+        },
+        {
+            "value" : "Blue"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Colt",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Colt.png",
@@ -5305,8 +6032,8 @@
     "name": "Magnum Special",
     "path": "Magnum-Special",
     "version": 1,
-    "description": "Colt's attack range and bullet speed are increased by x%.",
-    "descriptionHtml": "Colt's attack range and bullet speed are increased by <span style=\"color:#00cc00;\">x%</span>.",
+    "description": "Colt's attack Range and bullet speed are increased by x%.",
+    "descriptionHtml": "Colt's attack Range and bullet speed are increased by <span style=\"color:#00cc00;\">x%</span>.",
     "imageUrl": "https://cdn-fankit.brawlify.com/colt_starpower_02.png",
     "released": true
     }
@@ -5343,6 +6070,14 @@
     "path": "Shelly",
     "fankit": "shelly",
     "released": true,
+    "releaseYear": 2017,
+    "attackType": "Range",
+    "gender": "Female",
+    "color": [
+        {
+            "value" : "Purple"
+        }
+    ],
     "version": 1,
     "link": "https://brawlify.com/brawlers/detail/Shelly",
     "imageUrl": "https://cdn-old.brawlify.com/brawler/Shelly.png",
@@ -5398,8 +6133,8 @@
     "name": "Clay Pigeons",
     "path": "Clay-Pigeons",
     "version": 1,
-    "description": "On activation, for the next x seconds Shelly's main attacks focus the fire to a smaller area with an increased range.",
-    "descriptionHtml": "On activation, for the next <span style=\"color:#00cc00;\">x</span> seconds Shelly's main attacks focus the fire to a smaller area with an increased range.",
+    "description": "On activation, for the next x seconds Shelly's main attacks focus the fire to a smaller area with an increased Range.",
+    "descriptionHtml": "On activation, for the next <span style=\"color:#00cc00;\">x</span> seconds Shelly's main attacks focus the fire to a smaller area with an increased Range.",
     "imageUrl": "https://cdn-fankit.brawlify.com/shelly_gadget_02.png",
     "released": true
     }

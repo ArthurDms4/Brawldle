@@ -65,6 +65,20 @@
             </div>
 
             <div
+              :class="defineBackground('gender', brawler.gender)"
+              class="square flex justify-center items-center"
+            >
+              <div class="text-center">{{ brawler.gender }}</div>
+            </div>
+
+            <div
+              :class="defineBackground('attackType', brawler.attackType)"
+              class="square flex justify-center items-center"
+            >
+              <div class="text-center">{{ brawler.attackType }}</div>
+            </div>
+
+            <div
               :class="defineBackground('class', brawler.class.name)"
               class="square flex justify-center items-center"
             >
@@ -76,6 +90,20 @@
               class="square flex justify-center items-center"
             >
               <div class="text-center">{{ brawler.rarity.name }}</div>
+            </div>
+
+            <div
+              :class="defineBackground('color', brawler.color)"
+              class="square flex justify-center items-center column"
+            >
+              <div v-for="color in brawler.color" :key="color" class="text-center">{{ color.value }}</div>
+            </div>
+
+            <div
+              :class="defineBackground('releaseYear', brawler.releaseYear)"
+              class="square flex justify-center items-center"
+            >
+              <div class="text-center">{{ brawler.releaseYear }}</div>
             </div>
         </div>
       </div>
@@ -100,7 +128,6 @@
 import { computed, onMounted, ref, watch } from 'vue';
 import { BrawlStore } from 'src/stores/example-store';
 import brawlers from 'src/data/brawlers.json'
-import { pixelateImage } from 'src/libs/pixelate'
 import { useQuasar } from 'quasar';
 import { useRouter } from 'vue-router';
 
@@ -116,6 +143,7 @@ let listBrawlerAttempt = ref([] as any[])
 let hintSelected = ref(store.hintSelected)
 let imageToPixelaze = null
 let dialogSuccess = ref(false)
+let intervallAnim = 0;
 
 onMounted(async () => {
   listBrawlerAttempt.value = store.listBrawlerAttempt
@@ -125,9 +153,14 @@ onMounted(async () => {
   brawlerToGuess.value = store.brawlerToGuess
   originalListBrawlers.value = brawlers.reverse();
   console.log(brawlerToGuess.value)
-  let originalImage = document.querySelector("#pixelize") as HTMLImageElement;
-  
+  if(listBrawlerAttempt.value.length != 0) {
+    let squares = document.querySelectorAll(".square")
+    squares.forEach(el => el.classList.remove("anim"))
+  }
 })
+
+
+
 
 function filterFn(val : any, update : any, abort : any) {
   if (val.length < 1) {
@@ -157,7 +190,7 @@ function submitBrawler(brawler : any) {
   listBrawlerAttempt.value.unshift(brawlerAttempt.value)
   originalListBrawlers.value = originalListBrawlers.value.filter((b: any) => b.name !== brawler.name);
   if(brawlerAttempt.value.name == brawlerToGuess.value.name) {
-    dialogSuccess.value = true
+    setTimeout(() => dialogSuccess.value = true,3000)
   }
   brawlerAttempt.value = null
   
@@ -165,13 +198,70 @@ function submitBrawler(brawler : any) {
   
 }
 
-function defineBackground(cat: string, value : string) {
-  if(brawlerToGuess.value[cat]?.name === value) {
-    return "bg-green"; // Correspondance, retourne la classe pour une couleur de fond rouge
-  } else {
-    return "bg-red"; // Pas de correspondance, retourne la classe pour une couleur de fond verte
+function defineBackground(cat: string, value : any) {
+  
+  if (cat === "color") {
+    // Exact match:
+    if (containsAll(value, brawlerToGuess.value[cat]) && containsAll(brawlerToGuess.value[cat], value)) {
+      return "bg-green";
+    }
+    // Partial match:
+    if (containsAnyValue(value,brawlerToGuess.value[cat])) {
+      return "bg-orange";
+    } else {
+      return "bg-red";
+    }
   }
+  else if(typeof(brawlerToGuess.value[cat]) == "object") {
+    if(brawlerToGuess.value[cat]?.name === value) {
+      return "bg-green"; 
+    } else {
+      return "bg-red"; 
+    }
+  }
+  else if(typeof(brawlerToGuess.value[cat]) == "string" || typeof(brawlerToGuess.value[cat]) == "number") {
+    if(brawlerToGuess.value[cat] === value) {
+      return "bg-green"; 
+    } else {
+      return "bg-red"; 
+    }
+  }
+
 }
+
+const containsAll = (arr1: any[], arr2: any[]) => {
+  return arr2.every(arr2Item => {
+    return arr1.some(arr1Item => {
+      // Check if values of all properties match
+      return Object.keys(arr2Item).every(key => arr2Item[key] === arr1Item[key]);
+    });
+  });
+};
+
+function containsAnyValue(arr1: any[], arr2: any[]) {
+  return arr1.some(arr1Item => arr2.some(arr2Item => arr1Item.value === arr2Item.value));
+}
+
+watch(
+  () => listBrawlerAttempt.value,
+  () => {
+    setTimeout(() => {
+      const squares = document.querySelectorAll(".square:not(.anim)");
+    let i = 0;
+    const interval = setInterval(() => {
+      if (i < squares.length) {
+        squares[i].classList.add("anim");
+        i++;
+      } else {
+        clearInterval(interval);
+      }
+    }, 300);
+    }, 0)
+    
+  },
+  { deep: true }
+);
+
 
 function backHome() {
   dialogSuccess.value = false
@@ -188,6 +278,21 @@ function backHome() {
   border: 2px black solid;
   width: 70px;
   height: 70px;
+  opacity: 0;
+}
+.anim{
+  animation: fadeIn 1s ease-in;
+  animation-fill-mode: forwards;  
+}
+
+@keyframes fadeIn {  
+   from {  
+       opacity:0;  
+   }  
+
+   to {  
+       opacity:1;  
+   }  
 }
 
 .pixel {
